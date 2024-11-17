@@ -1,0 +1,11 @@
+[package]
+name = "rust-microservice-architecture"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["microservice_1", "microservice_2"]
+
+[dependencies]
+microservice_1 = { path = "microservice_1" }
+microservice_2 = { path = "microservice_2" }
