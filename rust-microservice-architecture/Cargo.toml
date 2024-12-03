@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = ["microservice_1", "microservice_2"]
+members = ["microservice"]
 
 [dependencies]
-microservice_1 = { path = "microservice_1" }
-microservice_2 = { path = "microservice_2" }
+microservice_1 = { path = "microservice/microservice_1" }
+microservice_2 = { path = "microservice/microservice_2" }
